@@ -1,20 +1,22 @@
 # PA-DDP-
 Kelompok 2
 # Project Akhir DDP:SISTEM PENGIRIMAN BARANG ANTAR PULAU & LUAR PULAU 
-> Disusun oleh: **[Nama Kamu]**  
-> NIM: **[NIM Kamu]**  
-> Mata Kuliah: **Pemrograman Dasar Python**  
-> Dosen Pengampu: **[Nama Dosen]**
+> Disusun oleh:
+**1. Alya Hauranisa Nugroho NIM (2509116005)
+2. Alif Anugrah Ramadhan NIM (2509116019)
+3. Ghea Aisyah Windraswari NIM (2509116022)**    
+> Mata Kuliah: **Dasar Dasar Pemrograman**  
+> Asisten Laboratorium: **Zyrus Alfredo Randan Malinggato**
 
 ---
 
-## 📌 Deskripsi Program
-Program ini dibuat untuk **mencari data dalam sebuah list menggunakan metode Linear Search**.  
-Pengguna dapat memasukkan angka yang ingin dicari, dan program akan menampilkan posisi (indeks) angka tersebut jika ditemukan.
+## Deskripsi Program
+Program ini dibuat untuk ****.  
+
 
 ---
 
-## 🧠 Konsep yang Digunakan
+## Konsep yang Digunakan
 1. **Fungsi (`def`)** untuk membuat kode lebih terstruktur.  
 2. **Perulangan (`for`)** untuk menelusuri elemen dalam list.  
 3. **Percabangan (`if-else`)** untuk menentukan kondisi data ditemukan atau tidak.  
@@ -22,23 +24,5 @@ Pengguna dapat memasukkan angka yang ingin dicari, dan program akan menampilkan 
 
 ---
 
-## 💻 Kode Program
+## Kode Program
 
-```python
-# file: src/main.py
-
-def linear_search(data, target):
-    for i in range(len(data)):
-        if data[i] == target:
-            return i
-    return -1
-
-angka = [10, 25, 30, 45, 50]
-cari = int(input("Masukkan angka yang ingin dicari: "))
-
-hasil = linear_search(angka, cari)
-
-if hasil != -1:
-    print(f"Angka {cari} ditemukan di indeks {hasil}")
-else:
-    print(f"Angka {cari} tidak ditemukan")
