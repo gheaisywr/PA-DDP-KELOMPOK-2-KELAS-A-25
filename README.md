@@ -12,6 +12,7 @@ Praktikum : **Dasar Dasar Pemrograman**
 # Deskripsi Program
 Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Barang Antar Pulau & Luar Pulau" yang dimanfaatkan pengguna (admin dan user)  untuk mengelola pengiriman barang dengan menu dan fitur-fitur yang disesuaikan dengan haknya.
 
+# Fitur
 ### Menu utama, meliputi:
 1. Login untuk Admin
 2. Login untuk User
@@ -178,12 +179,71 @@ akunadmin = [
 <img width="615" height="370" alt="image" src="https://github.com/user-attachments/assets/f3b41ae9-511c-48fb-9d57-c793ea57bd2b" />
 
 ### 2. Lihat data pengiriman
+- Pada menu ini pengguna diminta untuk memilih jenis pengiriman yang ingin dilihat datanya
+<img width="238" height="167" alt="image" src="https://github.com/user-attachments/assets/e75be22c-521d-4222-a254-02876e94b43f" />
+
+- Apabila pengguna salah memasukkan input, akan muncul "Masukkan angka 1 atau 2!" dan pengguna dapat memilih kembali jenis pengiriman yang ingin dilihat
+<img width="624" height="217" alt="image" src="https://github.com/user-attachments/assets/88d163fe-6cf8-4145-9194-e36b0e26672c" />
+
+- Setelah memilih jenis pengiriman, program akan menampilkan data pengiriman berdasarkan jenis pengiriman yang dipilih
+<img width="1114" height="217" alt="image" src="https://github.com/user-attachments/assets/afe028d0-5590-4dad-9b79-a71139ee4a3a" />
 
 ### 3. Ubah data pengiriman
+- Pada menu ini pengguna diminta untuk memilih jenis pengiriman yang ingin dilihat datanya
+<img width="238" height="167" alt="image" src="https://github.com/user-attachments/assets/e75be22c-521d-4222-a254-02876e94b43f" />
+
+- Apabila pengguna salah memasukkan input, akan muncul "Masukkan angka 1 atau 2!" dan pengguna dapat memilih kembali jenis pengiriman yang ingin diubah
+<img width="624" height="217" alt="image" src="https://github.com/user-attachments/assets/88d163fe-6cf8-4145-9194-e36b0e26672c" />
+
+- Setelah memilih jenis pengiriman, program akan menampilkan data pengiriman berdasarkan jenis pengiriman yang dipilih
+<img width="1114" height="217" alt="image" src="https://github.com/user-attachments/assets/afe028d0-5590-4dad-9b79-a71139ee4a3a" />
+
+- Pengguna kemudian memasukkan ID pengiriman yang ingin diubah
+<img width="1119" height="237" alt="image" src="https://github.com/user-attachments/assets/07672e82-7b74-4e84-b41a-8bdf287e8416" />
+
+- Apabila ID yang diinput tidak sesuai, maka program menampilkan "ID Pengiriman tidak ditemukan" dan pengguna kembali ke menu utama
+<img width="623" height="83" alt="image" src="https://github.com/user-attachments/assets/9f53e902-212a-42f3-af55-d7b162907c1c" />
+
+- Apabila ID ditemukan, maka pengguna diminta untuk memilih jenis perubahan
+<img width="307" height="182" alt="image" src="https://github.com/user-attachments/assets/117cd6b1-a894-4c14-9a04-0bbbd39966fe" />
+
+- Pada pilihan "1", pengguna dapat mengubah detail pengiriman seperti nama pengirim, nama penerima, alamat asal, dan alamat tujuan. Apabila terdapat detail yang tidak perlu diubah, maka pengguna dapat mengosongkan bagian tersebut
+<img width="640" height="139" alt="image" src="https://github.com/user-attachments/assets/03220362-3b1b-4e8b-b043-0830cbb1d38c" />
+
+<img width="619" height="82" alt="image" src="https://github.com/user-attachments/assets/33e97f13-4bd0-4809-88d9-08fccb3ba3b4" />
+
+- Pada pilihan "2", pengguna dapat mengubah status pengiriman barang
+<img width="271" height="189" alt="image" src="https://github.com/user-attachments/assets/a8d002bc-d6c4-4a1e-a1f9-9114ac567a21" />
+
+<img width="271" height="189" alt="image" src="https://github.com/user-attachments/assets/e24ce785-d33c-40c4-94d8-05024348d8bd" />
+
+- Pada pilihan "3", pengguna dapat mengubah dan mengatur estimasi pengiriman barang
+<img width="613" height="87" alt="image" src="https://github.com/user-attachments/assets/12775003-399d-48c0-a3b1-2aabbc7fd2ba" />
+
+<img width="635" height="86" alt="image" src="https://github.com/user-attachments/assets/7b308ce2-28ef-4e82-9508-63ea33871705" />
 
 ### 4. Hapus data pengiriman
+- Pada menu ini pengguna diminta untuk memilih jenis pengiriman yang ingin dilihat datanya
+<img width="238" height="167" alt="image" src="https://github.com/user-attachments/assets/e75be22c-521d-4222-a254-02876e94b43f" />
+
+- Apabila pengguna salah memasukkan input, akan muncul "Masukkan angka 1 atau 2!" dan pengguna dapat memilih kembali jenis pengiriman yang ingin dihapus
+<img width="624" height="217" alt="image" src="https://github.com/user-attachments/assets/88d163fe-6cf8-4145-9194-e36b0e26672c" />
+
+- Setelah memilih jenis pengiriman, program akan menampilkan data pengiriman berdasarkan jenis pengiriman yang dipilih
+<img width="1114" height="217" alt="image" src="https://github.com/user-attachments/assets/afe028d0-5590-4dad-9b79-a71139ee4a3a" />
+
+- Pengguna kemudian memasukkan ID pengiriman yang ingin dihapus
+<img width="635" height="86" alt="image" src="https://github.com/user-attachments/assets/8b3de150-4a85-4009-b1cd-eb3bc3bc60ed" />
+
+- Apabila ID yang diinput tidak sesuai, maka program menampilkan "ID Pengiriman tidak ditemukan" dan pengguna kembali ke menu utama
+<img width="660" height="86" alt="image" src="https://github.com/user-attachments/assets/ac3f2872-4c85-4c65-a361-95f5f941d895" />
+
+- Apabila ID pengiriman ditemukan, maka program akan menghapus data pengiriman tersebut
+<img width="622" height="80" alt="image" src="https://github.com/user-attachments/assets/5f127363-8153-4d4b-b930-c0055b3cfec6" />
 
 ### 5. Kembali ke menu utama
+- Apabila memilih "5" pada menu admin, maka program akan kembali ke menu utama dengan *delay* 3 detik
+<img width="634" height="66" alt="image" src="https://github.com/user-attachments/assets/0527103a-f95a-4675-b86f-98bf01f70a8e" />
 
 ## Menu User
 
