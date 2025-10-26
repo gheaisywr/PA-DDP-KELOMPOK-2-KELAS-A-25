@@ -164,3 +164,11 @@ akunadmin = [
 
 ## Menu ShipPay
 
+### 1. Lihat saldo
+
+### 2. Top-up saldo
+
+### 3. Upgrade ke akun GOLD
+
+### 4. Kembali ke menu user
+
