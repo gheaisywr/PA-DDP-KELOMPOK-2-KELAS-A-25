@@ -11,8 +11,31 @@ Praktikum : **Dasar Dasar Pemrograman**
 ---
 
 ## Deskripsi Program
-Program ini dibuat untuk ****.  
+Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Barang Antar Pulau & Luar Pulau" yang dimanfaatkan pengguna (admin dan user)  untuk mengelola pengiriman barang dengan menu dan fitur-fitur yang disesuaikan dengan haknya.
 
+### Menu utama, meliputi:
+1. Login untuk Admin
+2. Login untuk User
+3. Keluar
+
+### Menu admin, meliputi:
+1. Tambah data pengiriman
+2. Lihat data pengiriman
+3. Ubah data pengiriman
+4. Hapus data pengiriman
+5. Kembali ke menu utama
+
+### Menu user, meliputi:
+1. Tambah pengiriman barang
+2. Lihat pengiriman barang anda
+3. ShipPay
+4. Kembali ke menu utama
+
+#### Menu ShipPay merupakan saldo atau E-Money pada program ini. Menu ShipPay, meliputi:
+1. Lihat saldo
+2. Top-up saldo
+3. Upgrade ke akun GOLD
+4. Kembali ke menu user
 
 ---
 
