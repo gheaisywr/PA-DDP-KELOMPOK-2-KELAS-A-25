@@ -292,16 +292,61 @@ akunadmin = [
 <img width="632" height="77" alt="image" src="https://github.com/user-attachments/assets/0d64732b-09cd-403d-b132-aacd28b6ba16" />
 
 ### 3. ShipPay
+- Sebelum masuk ke menu ShipPay, pengguna diminta untuk memasukkan password akun
+<img width="621" height="90" alt="image" src="https://github.com/user-attachments/assets/f5f4a1b2-fb07-4c5a-bdd2-1df2b8df23f0" />
 
-### 4. Kembali ke menu utama
+- Pengguna diberikan 3 kesempatan untuk memasukkan password yang benar. Apabila salah, maka kesempatan diulang dan program akan menampilkan "UPassword
+  salah!" serta jumlah kesempatan yang tersisa
+<img width="610" height="83" alt="image" src="https://github.com/user-attachments/assets/219138c6-6523-4734-836c-41fb21fe8051" />
+
+- Apabila kesempatan habis, pengguna akan kembali ke menu user dengan *delay* 5 detik
+<img width="607" height="57" alt="image" src="https://github.com/user-attachments/assets/1723e3cd-c96f-4188-ad21-811c4858684a" />
+
+- Apabila pengguna memasukkan password yang benar, maka user bisa masuk ke menu ShipPay
+<img width="601" height="86" alt="image" src="https://github.com/user-attachments/assets/1c8d2e73-6781-4d51-9ab8-86424d54ea13" />
 
 ## Menu ShipPay
+- Pada menu ini, program menampilkan akun user, jenis akun, serta banyaknya poin yang telah dikumpulkan. Selain itu, menu ini juga menyediakan 4 pilihan menu, yakni:
+<img width="610" height="257" alt="image" src="https://github.com/user-attachments/assets/45fbc593-6872-4b81-a524-74921a67e22e" />
 
 ### 1. Lihat saldo
+- Apabila pengguba memilih menu "1" maka program akan menampilkan saldo ShipPay saat ini
+<img width="617" height="84" alt="image" src="https://github.com/user-attachments/assets/72c07f27-6047-48f1-96fc-4abec91a616e" />
 
 ### 2. Top-up saldo
+- Apabila pengguna memilih menu "2", program akan menampilkan saldo ShipPay saat ini dan user diminta untuk memasukkan nominal Top-Up
+<img width="600" height="90" alt="image" src="https://github.com/user-attachments/assets/d89845bc-1c70-468d-9bc9-9bff28495308" />
+
+- Nominal tersebut tidak boleh kurang dari Rp10.000 atau lebih dari Rp200.000
+<img width="620" height="93" alt="image" src="https://github.com/user-attachments/assets/74788fb0-c4d8-433c-888d-ebd149204eda" />
+
+<img width="620" height="87" alt="image" src="https://github.com/user-attachments/assets/d98a937e-44ef-450b-bc45-d0f9787ac433" />
+
+- Setelah memasukkan nominal Top Up yang sesuai, maka saldo pengguna akan ditambah dan program menampilkan saldo user saat ini
+<img width="617" height="81" alt="image" src="https://github.com/user-attachments/assets/f4f297d3-c6d8-4370-b97a-88473f269fbd" />
 
 ### 3. Upgrade ke akun GOLD
+- Pada menu ini, program akan menampilkan jumlah poin yang dimiliki pengguna dan melakukan konfirmasi apakah ingin upgrade ke akun gold atau tidak
+<img width="599" height="84" alt="image" src="https://github.com/user-attachments/assets/11563383-f486-41ac-81a8-3f705f83fbf3" />
+
+- Jika memilih "Tidak", maka upgrade akun akan dibatalkan
+<img width="605" height="80" alt="image" src="https://github.com/user-attachments/assets/a6e7a047-1e49-4702-a044-6e5eaf3f807d" />
+
+- Jika "Ya" dan pengguna memiliki poin lebih dari sama dengan 1000, maka akun user akan diupgrade ke akun GOLD
+<img width="604" height="78" alt="image" src="https://github.com/user-attachments/assets/132a217e-655a-401f-b7fe-983256887860" />
+
+- Namun jika poin pennguna kurang dari 1000, maka upgrade akun gagal karena poin yang tidak mencukupi
+<img width="626" height="87" alt="image" src="https://github.com/user-attachments/assets/69b0bcf3-d99c-45a0-ac4c-702c0f27e989" />
+
+- Jika akun sudah merupakan akun gold, maka akan muncul pemberitahuan bahwa "akun anda sudah gold"
+<img width="609" height="79" alt="image" src="https://github.com/user-attachments/assets/04827c1b-2d02-48a7-833a-397d7ba7eda6" />
 
 ### 4. Kembali ke menu user
+- Apabila pengguna memilih menu "4", maka program akan keluar dari ShipPay dan kembali ke menu user dengan *delay* 3 detik
+<img width="609" height="64" alt="image" src="https://github.com/user-attachments/assets/4958e4c4-45d8-4fcb-9501-063c237986ae" />
+
+## 4. Kembali ke Menu Utama
+- Menu ini merupakan terakhir dalam menu user yang fungsinya agar pengguna kembali ke menu utama dengan *delay* 5 detik
+![Uploading image.png…]()
+
 
