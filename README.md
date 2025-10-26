@@ -31,7 +31,7 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 3. ShipPay
 4. Kembali ke menu utama
 
-### Menu ShipPay merupakan saldo atau E-Money pada program ini. Menu ShipPay, meliputi:
+### Pada menu user, terdapat ShipPay yang merupakan saldo atau E-Money pada program ini. Menu ShipPay, meliputi:
 1. Lihat saldo
 2. Top-up saldo
 3. Upgrade ke akun GOLD
@@ -51,7 +51,21 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 9. **Logika Bisnis (`Sistem Saldo-Poin-Ongkir-Akun GOLD`)**
 10. **Manajemen User (`Login-Registrasi-Validasi`)**
 11. **Variabel**
-12. **Banner**
+
+---
+
+## Flowchart
+### Menu Utama
+<img width="8720" height="6810" alt="PROJECT AKHIR DDP-MENU UTAMA drawio (2)" src="https://github.com/user-attachments/assets/d1a566a4-5780-4949-89c4-e1a68672d15b" />
+### Login Admin
+<img width="7230" height="6840" alt="PROJECT AKHIR DDP-LOGIN drawio (1)" src="https://github.com/user-attachments/assets/d930bcf5-1214-48e0-85aa-aa579dfd4802" />
+### Login dan Registrasi User
+<img width="11339" height="16384" alt="PROJECT AKHIR DDP-LOGIN drawio (2)" src="https://github.com/user-attachments/assets/eaa3c996-ad31-45d6-bdba-dbc944a2e290" />
+### Menu Admin
+<img width="16384" height="11492" alt="PROJECT AKHIR DDP-MENU ADMIN drawio (4)" src="https://github.com/user-attachments/assets/f5f731f4-ae5a-42d7-b4a5-311aa6b0fabf" />
+### Menu User
+<img width="16384" height="10038" alt="PROJECT AKHIR DDP-MENU USER drawio" src="https://github.com/user-attachments/assets/b1c960d5-61bf-4523-ab64-1f7f6fe951b3" />
+
 ---
 
 ## Kode Program
