@@ -121,6 +121,7 @@ akunadmin = [
 <img width="605" height="62" alt="image" src="https://github.com/user-attachments/assets/12b51812-a88e-4f8a-91d2-653582c8f4ec" />
 
 - Apabila pengguna berhasil memasukkan username atau password yang tepat, maka program akan menyimpan role sebagai "user" dan pengguna akan masuk ke menu user
+<img width="602" height="78" alt="image" src="https://github.com/user-attachments/assets/6251a836-7709-4055-86db-09c50ce7bbcf" />
 
 - Jika memilih "2" maka user akan melakukan registrasi akun dengan membuat username dan password, serta melakukan verifikasi password
 <img width="606" height="118" alt="image" src="https://github.com/user-attachments/assets/2228a3c5-bc41-4b55-8ca1-e7e4463c3d90" />
