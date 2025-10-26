@@ -221,7 +221,8 @@ akunadmin = [
 - Pada pilihan "3", pengguna dapat mengubah dan mengatur estimasi pengiriman barang
 <img width="613" height="87" alt="image" src="https://github.com/user-attachments/assets/12775003-399d-48c0-a3b1-2aabbc7fd2ba" />
 
-<img width="635" height="86" alt="image" src="https://github.com/user-attachments/assets/7b308ce2-28ef-4e82-9508-63ea33871705" />
+<img width="612" height="79" alt="image" src="https://github.com/user-attachments/assets/66a7b082-ad29-4a21-aa7d-bcdeccf2617e" />
+
 
 ### 4. Hapus data pengiriman
 - Pada menu ini pengguna diminta untuk memilih jenis pengiriman yang ingin dilihat datanya
