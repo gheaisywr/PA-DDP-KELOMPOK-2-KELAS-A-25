@@ -1,0 +1,44 @@
+[
+    {
+        "username": "alya",
+        "password": "user123",
+        "saldo": 186350,
+        "akun": "gold",
+        "poin": 1250
+    },
+    {
+        "username": "alip",
+        "password": "user456",
+        "saldo": 26500,
+        "akun": "gold",
+        "poin": 1000
+    },
+    {
+        "username": "ghea",
+        "password": "user789",
+        "saldo": 47175,
+        "akun": "gold",
+        "poin": 500
+    },
+    {
+        "username": "hauranisa",
+        "password": "12345678",
+        "saldo": 0,
+        "akun": "gold",
+        "poin": 0
+    },
+    {
+        "username": "hauranisaa",
+        "password": "123456",
+        "saldo": 0,
+        "akun": "bronze",
+        "poin": 0
+    },
+    {
+        "username": "gheaaisyah",
+        "password": "123456",
+        "saldo": 0,
+        "akun": "bronze",
+        "poin": 0
+    }
+]

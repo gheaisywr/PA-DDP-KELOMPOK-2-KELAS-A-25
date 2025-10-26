@@ -1,0 +1,66 @@
+{
+    "Antar Pulau": [
+        {
+            "user": "ghea",
+            "id_pengiriman": "A001",
+            "nama_pengirim": "ALIP",
+            "nama_penerima": "GEHA",
+            "alamat_asal": "JKT",
+            "alamat_tujuan": "BERAU",
+            "jenis_pengiriman": "Antar Pulau",
+            "barang": "SEPATU",
+            "berat_barang": 2.0,
+            "layanan_pengiriman": "Express",
+            "ongkir": 15300,
+            "status_pengiriman": "Selesai",
+            "estimasi": "20/12/2025"
+        }
+    ],
+    "Luar Pulau": [
+        {
+            "user": "-",
+            "id_pengiriman": "L001",
+            "nama_pengirim": "ALYA",
+            "nama_penerima": "ARINI",
+            "alamat_asal": "BALIKPAPAN",
+            "alamat_tujuan": "JAKARTA",
+            "jenis_pengiriman": "Luar Pulau",
+            "barang": "MAKANAN",
+            "berat_barang": 9.0,
+            "layanan_pengiriman": "Kargo",
+            "ongkir": 32500,
+            "status_pengiriman": "Diproses",
+            "estimasi": "01/09/2025"
+        },
+        {
+            "user": "alip",
+            "id_pengiriman": "L002",
+            "nama_pengirim": "ALIP",
+            "nama_penerima": "GHEA",
+            "alamat_asal": "BPP",
+            "alamat_tujuan": "SMD",
+            "jenis_pengiriman": "Luar Pulau",
+            "barang": "BAJU",
+            "berat_barang": 3.0,
+            "layanan_pengiriman": "Express",
+            "ongkir": 33000,
+            "status_pengiriman": "Diproses",
+            "estimasi": "Belum ditentukan"
+        },
+        {
+            "user": "alip",
+            "id_pengiriman": "L003",
+            "nama_pengirim": "ALIP",
+            "nama_penerima": "GHEA",
+            "alamat_asal": "SMD",
+            "alamat_tujuan": "JAKARTA",
+            "jenis_pengiriman": "Luar Pulau",
+            "barang": "SEPEDA",
+            "berat_barang": 9.0,
+            "layanan_pengiriman": "Kargo",
+            "ongkir": 46500,
+            "status_pengiriman": "Diproses",
+            "estimasi": "Belum ditentukan"
+        }
+    ]
+}
