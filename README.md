@@ -1,5 +1,4 @@
 # PA DDP KELOMPOK 2 KELAS A'2025
-Kelompok 2
 # Project Akhir DDP: Sistem Pengiriman Barang Antar Pulau & Luar Pulau 
 Disusun oleh:
 > 1. Alya Hauranisa Nugroho NIM (2509116005)
@@ -10,7 +9,7 @@ Praktikum : **Dasar Dasar Pemrograman**
 
 ---
 
-## Deskripsi Program
+# Deskripsi Program
 Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Barang Antar Pulau & Luar Pulau" yang dimanfaatkan pengguna (admin dan user)  untuk mengelola pengiriman barang dengan menu dan fitur-fitur yang disesuaikan dengan haknya.
 
 ### Menu utama, meliputi:
@@ -39,7 +38,7 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 
 ---
 
-## Konsep yang Digunakan
+# Konsep yang Digunakan
 1. **Fungsi (`def`)** untuk membuat kode lebih terstruktur.  
 2. **Perulangan (`for`)** untuk menelusuri elemen dalam list.  
 3. **Percabangan (`if-else`)** untuk menentukan kondisi data ditemukan atau tidak.  
@@ -54,7 +53,7 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 
 ---
 
-## Flowchart
+# Flowchart
 ### Menu Utama
 <img width="8720" height="6810" alt="PROJECT AKHIR DDP-MENU UTAMA drawio (2)" src="https://github.com/user-attachments/assets/d1a566a4-5780-4949-89c4-e1a68672d15b" />
 
@@ -67,10 +66,68 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 ### Menu Admin
 <img width="16384" height="11492" alt="PROJECT AKHIR DDP-MENU ADMIN drawio (4)" src="https://github.com/user-attachments/assets/f5f731f4-ae5a-42d7-b4a5-311aa6b0fabf" />
 
-### Menu User
+### Menu User dan Menu ShipPay
 <img width="16384" height="10038" alt="PROJECT AKHIR DDP-MENU USER drawio" src="https://github.com/user-attachments/assets/b1c960d5-61bf-4523-ab64-1f7f6fe951b3" />
 
 ---
 
-## Kode Program
+# Alur dan Outut Program
+## Menu Utama
+- Saat program pertama kali di *run*, program akan menampilkan menu utama dengan 3 pilihan menu
+<img width="611" height="294" alt="image" src="https://github.com/user-attachments/assets/587a2a05-afb0-4860-a8a4-92c80ae2df03" />
+
+- Apabila salah memasukkan input, maka akan muncul output "Masukkan angka 1-3!" dan pengguna diminta untuk memasukkan input kembali
+<img width="618" height="342" alt="image" src="https://github.com/user-attachments/assets/fe578065-1d2c-41f0-bf34-bb6e8612cf9f" />
+
+### 1. Login sebagai Admin
+#### Akun Admin
+``` ruby
+akunadmin = [
+    {"username": "alya",   "password": "admin123"},
+    {"username": "alip", "password": "admin456"},
+    {"username": "ghea", "password": "admin789"}
+]
+```
+
+- Apabila memilih "1" pada menu utama, maka pengguna akan masuk ke panel login admin dan diminta untuk memasukkan username serta password admin
+<img width="633" height="107" alt="image" src="https://github.com/user-attachments/assets/c71ec3c0-0977-4c66-99f1-aba64d591862" />
+
+- Pengguna diberikan 3 kesempatan untuk memasukkan password dan username yang benar. Apabila salah, maka kesempatan diulang dan program akan menampilkan "Username atau Password
+  salah!" serta jumlah kesempatan yang tersisa
+<img width="624" height="83" alt="image" src="https://github.com/user-attachments/assets/7a64475c-0a4b-4f9a-9210-8cdd01a142ac" />
+
+- Apabila kesempatan habis, pengguna akan kembali ke menu utama dengan *delay* 5 detik
+<img width="618" height="68" alt="image" src="https://github.com/user-attachments/assets/a9e3cb98-9c2f-43e8-9208-aa9f23388184" />
+
+- Apabila pengguna berhasil memasukkan username atau password yang tepat, maka program akan menyimpan role sebagai "admin" dan pengguna akan masuk ke menu admin
+<img width="604" height="81" alt="image" src="https://github.com/user-attachments/assets/cfaef823-abac-42f3-ad8d-e60a5d9bc3f4" />
+
+
+### 2. Login  sebagai User
+
+### 3. Keluar
+
+## Menu Admin
+
+### 1. Tambah Data Pengiriman
+
+### 2. Lihat data pengiriman
+
+### 3. Ubah data pengiriman
+
+### 4. Hapus data pengiriman
+
+### 5. Kembali ke menu utama
+
+## Menu User
+
+### 1. Tambah pengiriman barang
+
+### 2. Lihat pengiriman barang anda
+
+### 3. ShipPay
+
+### 4. Kembali ke menu utama
+
+## Menu ShipPay
 
