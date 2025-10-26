@@ -166,7 +166,7 @@ akunadmin = [
 <img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/7e76ba3b-33cc-4655-8710-5130f8fec80c" />
 
 - Selanjutnya pengguna diminta untuk memilih layanan pengiriman, diataranya; "Reguler", "Express", dan "Kargo"
-<img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/b1947546-1f8c-491c-9abb-d70589a8d26e" />
+<img width="311" height="187" alt="image" src="https://github.com/user-attachments/assets/9a7a50f2-5b55-4f47-928c-ec4064c8dc18" />
 
 - Pengguna akan diminta untuk input estimasi pengiriman barang dengan format *(DD/MM/YYY)*
 <img width="380" height="36" alt="image" src="https://github.com/user-attachments/assets/80497f03-2e29-422d-bcef-e7db516c668a" />
