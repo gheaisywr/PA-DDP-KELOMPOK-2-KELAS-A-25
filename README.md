@@ -111,12 +111,32 @@ akunadmin = [
 <img width="624" height="220" alt="image" src="https://github.com/user-attachments/assets/b757095c-816a-4667-af4d-e522cdd6c190" />
 
 - Jika memilih "1" maka pengguna langsung masuk ke panel login user dan diminta untuk memasukkan username dan password
+<img width="607" height="100" alt="image" src="https://github.com/user-attachments/assets/35f892c0-8925-419d-bf7a-53ea9333c0ab" />
 
 - Pengguna diberikan 3 kesempatan untuk memasukkan password dan username yang benar. Apabila salah, maka kesempatan diulang dan program akan menampilkan "Username atau Password salah!" serta jumlah kesempatan yang tersisa
+<img width="604" height="79" alt="image" src="https://github.com/user-attachments/assets/6460f5af-419a-4d65-afd3-206479d843b8" />
 
 - Apabila kesempatan habis, pengguna akan kembali ke menu utama dengan *delay* 5 detik
+<img width="605" height="62" alt="image" src="https://github.com/user-attachments/assets/12b51812-a88e-4f8a-91d2-653582c8f4ec" />
 
-- Apabila pengguna berhasil memasukkan username atau password yang tepat, maka program akan menyimpan role sebagai "admin" dan pengguna akan masuk ke menu admin
+- Apabila pengguna berhasil memasukkan username atau password yang tepat, maka program akan menyimpan role sebagai "user" dan pengguna akan masuk ke menu user
+
+- Jika memilih "2" maka user akan melakukan registrasi akun dengan membuat username dan password, serta melakukan verifikasi password
+<img width="606" height="118" alt="image" src="https://github.com/user-attachments/assets/2228a3c5-bc41-4b55-8ca1-e7e4463c3d90" />
+
+- Pada saat membuat username dan password, pengguna tidak dapat memasukkan username yang sudah ada. Selain itu, username tidak bisa kurang dari 3 dan lebih dari 10, serta password tidak bisa kurang dari 6 dan lebih dari 12. Apabila tidak memenuhi kondisi, registrasi akun akan diulang dari awal
+<img width="606" height="87" alt="image" src="https://github.com/user-attachments/assets/b5079af5-3a5d-4f7c-bebd-8fe7bf659793" />
+
+<img width="603" height="85" alt="image" src="https://github.com/user-attachments/assets/1f39bd9f-335d-4020-ad3c-a2dd020563e0" />
+
+<img width="609" height="75" alt="image" src="https://github.com/user-attachments/assets/1582afb2-2be8-47d5-9923-32ea3047210f" />
+
+- Apabila verifikasi password tidak sesuai dengan password yang dibuat, maka pengguna akan mengulang proses registrasi akun dari awal
+<img width="605" height="88" alt="image" src="https://github.com/user-attachments/assets/585d96df-b38c-4cce-8554-b0e943341ce3" />
+
+- Apabila password berhasil dibuat, maka akun user akan tersimpan ke dalam JSON dan pengguna kembali ke menu utama
+<img width="613" height="66" alt="image" src="https://github.com/user-attachments/assets/67fad740-1a4d-40df-952b-51a8efe2fe2d" />
+
 
 ### 3. Keluar
 
