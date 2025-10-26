@@ -139,6 +139,8 @@ akunadmin = [
 
 
 ### 3. Keluar
+- Apabila pada menu utama pengguna memasukkan input "3", maka program akan berakhir
+<img width="606" height="80" alt="image" src="https://github.com/user-attachments/assets/f2a0bca9-1e00-4bba-8e4a-64d795d9e402" />
 
 ## Menu Admin
 
