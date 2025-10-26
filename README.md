@@ -31,7 +31,7 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 3. ShipPay
 4. Kembali ke menu utama
 
-#### Menu ShipPay merupakan saldo atau E-Money pada program ini. Menu ShipPay, meliputi:
+### Menu ShipPay merupakan saldo atau E-Money pada program ini. Menu ShipPay, meliputi:
 1. Lihat saldo
 2. Top-up saldo
 3. Upgrade ke akun GOLD
