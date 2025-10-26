@@ -104,6 +104,19 @@ akunadmin = [
 
 
 ### 2. Login  sebagai User
+- Pada panel login sebagai user, program akan menampilkan tabel "Sudah Punya Akun?" dan pengguna dihadapkan dengan 2 pilihan, yaitu: "1. Ya, saya sudah punya akun" dan "2. Belum, saya ingin daftar akun".
+<img width="295" height="167" alt="image" src="https://github.com/user-attachments/assets/c5bdd23f-e4b1-4f03-b877-73d71c2f7a89" />
+
+- Apabila salah memasukkan input, maka akan muncul output "Pilihan tidak valid! Silahkan pilih 1 atau 2." dan pengguna diminta untuk memasukkan input kembali
+<img width="624" height="220" alt="image" src="https://github.com/user-attachments/assets/b757095c-816a-4667-af4d-e522cdd6c190" />
+
+- Jika memilih "1" maka pengguna langsung masuk ke panel login user dan diminta untuk memasukkan username dan password
+
+- Pengguna diberikan 3 kesempatan untuk memasukkan password dan username yang benar. Apabila salah, maka kesempatan diulang dan program akan menampilkan "Username atau Password salah!" serta jumlah kesempatan yang tersisa
+
+- Apabila kesempatan habis, pengguna akan kembali ke menu utama dengan *delay* 5 detik
+
+- Apabila pengguna berhasil memasukkan username atau password yang tepat, maka program akan menyimpan role sebagai "admin" dan pengguna akan masuk ke menu admin
 
 ### 3. Keluar
 
