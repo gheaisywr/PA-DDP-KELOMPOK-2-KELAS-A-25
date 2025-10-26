@@ -143,8 +143,39 @@ akunadmin = [
 <img width="606" height="80" alt="image" src="https://github.com/user-attachments/assets/f2a0bca9-1e00-4bba-8e4a-64d795d9e402" />
 
 ## Menu Admin
+- Setelah berhasil melakukan *login* sebagai admin, maka pengguna akan masuk ke menu admin dengan 5 pilihan menu dan diminta untuk memilih menu yang tersedia
+<img width="274" height="216" alt="image" src="https://github.com/user-attachments/assets/72420ac5-ff6f-4db6-b945-5697413ce1d2" />
+
+- Apabila salah memasukkan input, maka akan muncul output "Masukkan angka 1-5!" dan pengguna diminta untuk memasukkan input kembali
+<img width="610" height="266" alt="image" src="https://github.com/user-attachments/assets/751bd2b8-c635-49e3-bf5b-38899ec65d22" />
 
 ### 1. Tambah Data Pengiriman
+- Saat masuk ke menu "Tambah Data Pengiriman" pengguna diminta untuk input nama pengirim, nama penerima, alamat asal, dan alamat tujuan
+<img width="606" height="139" alt="image" src="https://github.com/user-attachments/assets/4600f4aa-8828-43b0-a096-38420cbe8831" />
+
+- Apabila salah satu dari 4 input tersebut ada yang dikosongkan, maka akan terulang dari awal input nama pengirim
+<img width="603" height="77" alt="image" src="https://github.com/user-attachments/assets/5d0eb9a7-b625-4e0f-b384-f08ed3cc9378" />
+
+- Selanjutnya, pengguna akan diminta untuk memilih jenis pengiriman "Antar Pulau" atau "Luar Pulau"
+<img width="260" height="159" alt="image" src="https://github.com/user-attachments/assets/679d81cb-7b02-49e2-9ad1-c8a430fe9f22" />
+
+- Setelah itu, pengguna diminta untuk memasukkan barang yang akan dikirim dan berat barang tersebut dalam satuan kg
+<img width="231" height="47" alt="image" src="https://github.com/user-attachments/assets/d0e828cf-711b-4a5c-a296-4a775a13664d" />
+
+- Apabila berat barang yang diinput <0 kg, maka akan diulang dan menampilkan "Berat barang harus lebih dari 0!"
+<img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/7e76ba3b-33cc-4655-8710-5130f8fec80c" />
+
+- Selanjutnya pengguna diminta untuk memilih layanan pengiriman, diataranya; "Reguler", "Express", dan "Kargo"
+<img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/b1947546-1f8c-491c-9abb-d70589a8d26e" />
+
+- Pengguna akan diminta untuk input estimasi pengiriman barang dengan format *(DD/MM/YYY)*
+<img width="380" height="36" alt="image" src="https://github.com/user-attachments/assets/80497f03-2e29-422d-bcef-e7db516c668a" />
+
+- Apabila format tidak sesuai, maka pengguna diminta untuk kembali memasukkan estimasi pengiriman
+<img width="609" height="79" alt="image" src="https://github.com/user-attachments/assets/04318629-482e-4ae0-8668-caa9089d1c98" />
+
+- Setelah semua data lengkap, maka program akan menyimpan data pengiriman ke dalam JSON dan menampilkan ringkasan data pengiriman baru
+<img width="615" height="370" alt="image" src="https://github.com/user-attachments/assets/f3b41ae9-511c-48fb-9d57-c793ea57bd2b" />
 
 ### 2. Lihat data pengiriman
 
