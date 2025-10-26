@@ -163,8 +163,8 @@ akunadmin = [
 - Setelah itu, pengguna diminta untuk memasukkan barang yang akan dikirim dan berat barang tersebut dalam satuan kg
 <img width="231" height="47" alt="image" src="https://github.com/user-attachments/assets/d0e828cf-711b-4a5c-a296-4a775a13664d" />
 
-- Apabila berat barang yang diinput <0 kg, maka akan diulang dan menampilkan "Berat barang harus lebih dari 0!"
-<img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/7e76ba3b-33cc-4655-8710-5130f8fec80c" />
+- Apabila berat barang yang diinput < 0 kg atau > 100 kg, maka akan diulang dan menampilkan "Berat barang harus lebih dari 0 dengan maksimal 100kg!"
+<img width="602" height="83" alt="image" src="https://github.com/user-attachments/assets/c7f05e58-ff9f-4c67-b331-58eeb52a8534" />
 
 - Selanjutnya pengguna diminta untuk memilih layanan pengiriman, diataranya; "Reguler", "Express", dan "Kargo"
 <img width="311" height="187" alt="image" src="https://github.com/user-attachments/assets/9a7a50f2-5b55-4f47-928c-ec4064c8dc18" />
@@ -233,7 +233,7 @@ akunadmin = [
 <img width="1114" height="217" alt="image" src="https://github.com/user-attachments/assets/afe028d0-5590-4dad-9b79-a71139ee4a3a" />
 
 - Pengguna kemudian memasukkan ID pengiriman yang ingin dihapus
-<img width="635" height="86" alt="image" src="https://github.com/user-attachments/assets/8b3de150-4a85-4009-b1cd-eb3bc3bc60ed" />
+<img width="1069" height="204" alt="image" src="https://github.com/user-attachments/assets/9bd56170-6f12-4e02-8414-e46b47409cfc" />
 
 - Apabila ID yang diinput tidak sesuai, maka program menampilkan "ID Pengiriman tidak ditemukan" dan pengguna kembali ke menu utama
 <img width="660" height="86" alt="image" src="https://github.com/user-attachments/assets/ac3f2872-4c85-4c65-a361-95f5f941d895" />
@@ -248,8 +248,48 @@ akunadmin = [
 ## Menu User
 
 ### 1. Tambah pengiriman barang
+- Saat masuk ke menu "Tambah Pengiriman Barang" pengguna diminta untuk input nama pengirim, nama penerima, alamat asal, dan alamat tujuan
+<img width="606" height="139" alt="image" src="https://github.com/user-attachments/assets/4600f4aa-8828-43b0-a096-38420cbe8831" />
+
+- Apabila salah satu dari 4 input tersebut ada yang dikosongkan, maka akan terulang dari awal input nama pengirim
+<img width="603" height="77" alt="image" src="https://github.com/user-attachments/assets/5d0eb9a7-b625-4e0f-b384-f08ed3cc9378" />
+
+- Selanjutnya, pengguna akan diminta untuk memilih jenis pengiriman "Antar Pulau" atau "Luar Pulau"
+<img width="260" height="159" alt="image" src="https://github.com/user-attachments/assets/679d81cb-7b02-49e2-9ad1-c8a430fe9f22" />
+
+- Setelah itu, pengguna diminta untuk memasukkan barang yang akan dikirim dan berat barang tersebut dalam satuan kg
+<img width="231" height="47" alt="image" src="https://github.com/user-attachments/assets/d0e828cf-711b-4a5c-a296-4a775a13664d" />
+
+- Apabila berat barang yang diinput < 0 kg atau > 100 kg, maka akan diulang dan menampilkan "Berat barang harus lebih dari 0 dengan maksimal 100kg!"
+<img width="602" height="83" alt="image" src="https://github.com/user-attachments/assets/c7f05e58-ff9f-4c67-b331-58eeb52a8534" />
+
+- Selanjutnya pengguna diminta untuk memilih layanan pengiriman, diataranya; "Reguler", "Express", dan "Kargo"
+<img width="311" height="187" alt="image" src="https://github.com/user-attachments/assets/9a7a50f2-5b55-4f47-928c-ec4064c8dc18" />
+
+- Program akan menampilkan ringkasan data pengiriman beserta total ongkir dan saldo. Selain itu, pengguna diminta untuk konfirmasi pembayaran
+<img width="634" height="373" alt="image" src="https://github.com/user-attachments/assets/a6dd9bf9-80f7-46c1-a1f7-87414b6877b3" />
+
+- Apabila akun user merupakan akun **GOLD**, maka pengguna mendapatkan diskon ongkir sebesar 10%
+<img width="643" height="173" alt="image" src="https://github.com/user-attachments/assets/66cef1f6-c787-43b0-b725-dd370f3e9e62" />
+
+- Apabila user memilih "Ya" saat konfirmasi pembayaran dan saldo mencukupi, transaksi pembayaran akan diproses
+<img width="639" height="153" alt="image" src="https://github.com/user-attachments/assets/443e6702-a0af-417f-b06a-b79d55eb7877" />
+
+- Saat proses transaksi selesai, program akan menampilkan *Invoice* dan saldo user akan terpotong, serta mendapatkan 250 poin
+<img width="654" height="451" alt="image" src="https://github.com/user-attachments/assets/2f6f3b4b-d6b4-49b2-9656-62e9d6869a3a" />
+
+- Jika saldo tidak mencukupi, maka akan pengguna akan kembali ke menu utama
+<img width="649" height="89" alt="image" src="https://github.com/user-attachments/assets/30ba0cde-54ff-47f1-989b-f726440a25ce" />
+
+- Apabila user memilih "Tidak" saat konfirmasi pembayaran, maka pesanan dibatalkan dan kembali ke menu utama
+<img width="643" height="108" alt="image" src="https://github.com/user-attachments/assets/d0eeba37-9e94-4b45-a647-319cf38e9f89" />
 
 ### 2. Lihat pengiriman barang anda
+- Pada menu ini, program akan menampilkan daftar pengiriman user
+<img width="650" height="524" alt="image" src="https://github.com/user-attachments/assets/7360044b-d48c-46e8-986a-61f0a6ddeeca" />
+
+- Apabila tidak ditemukan pengiriman barang, maka program menampilkan bahwa user belum memiliki data pengiriman
+<img width="632" height="77" alt="image" src="https://github.com/user-attachments/assets/0d64732b-09cd-403d-b132-aacd28b6ba16" />
 
 ### 3. ShipPay
 
