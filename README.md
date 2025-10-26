@@ -216,7 +216,7 @@ akunadmin = [
 - Pada pilihan "2", pengguna dapat mengubah status pengiriman barang
 <img width="271" height="189" alt="image" src="https://github.com/user-attachments/assets/a8d002bc-d6c4-4a1e-a1f9-9114ac567a21" />
 
-<img width="271" height="189" alt="image" src="https://github.com/user-attachments/assets/e24ce785-d33c-40c4-94d8-05024348d8bd" />
+<img width="607" height="84" alt="image" src="https://github.com/user-attachments/assets/c278a153-5dbc-46ef-b487-9d9715b3e86d" />
 
 - Pada pilihan "3", pengguna dapat mengubah dan mengatur estimasi pengiriman barang
 <img width="613" height="87" alt="image" src="https://github.com/user-attachments/assets/12775003-399d-48c0-a3b1-2aabbc7fd2ba" />
@@ -349,6 +349,7 @@ akunadmin = [
 
 ## 4. Kembali ke Menu Utama
 - Menu ini merupakan terakhir dalam menu user yang fungsinya agar pengguna kembali ke menu utama dengan *delay* 5 detik
-![Uploading image.png…]()
+<img width="613" height="63" alt="image" src="https://github.com/user-attachments/assets/b84937ab-fa3a-49d5-aa92-f04a3d60dcc7" />
+
 
 
