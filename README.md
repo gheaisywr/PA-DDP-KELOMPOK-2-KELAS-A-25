@@ -65,10 +65,10 @@ Program ini merupakan program Python sederhana bertemakan "Sistem Pengiriman Bar
 <img width="11339" height="16384" alt="PROJECT AKHIR DDP-LOGIN drawio (2)" src="https://github.com/user-attachments/assets/eaa3c996-ad31-45d6-bdba-dbc944a2e290" />
 
 ### Menu Admin
-<img width="16384" height="11492" alt="PROJECT AKHIR DDP-MENU ADMIN drawio (4)" src="https://github.com/user-attachments/assets/f5f731f4-ae5a-42d7-b4a5-311aa6b0fabf" />
+<img width="16384" height="11492" alt="PROJECT AKHIR DDP-MENU ADMIN drawio (5)" src="https://github.com/user-attachments/assets/3dfdc0cc-8c79-4d6c-b41c-ae9deb1229e3" />
 
 ### Menu User dan Menu ShipPay
-<img width="16384" height="10038" alt="PROJECT AKHIR DDP-MENU USER drawio" src="https://github.com/user-attachments/assets/b1c960d5-61bf-4523-ab64-1f7f6fe951b3" />
+<img width="16384" height="10035" alt="PROJECT AKHIR DDP-MENU USER drawio (1)" src="https://github.com/user-attachments/assets/9d777e97-24b2-4382-a554-500642a9ecda" />
 
 ---
 
